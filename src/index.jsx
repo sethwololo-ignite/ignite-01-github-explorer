@@ -1,5 +1,4 @@
 import React from 'react';
+import App from './App'
 
-export default App = () => {
-  return <h1>Hello World</h1>
-}
+
