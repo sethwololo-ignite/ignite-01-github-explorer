@@ -23,7 +23,7 @@ export default function RepositoryList() {
       <h1>Repository List</h1>
 
       <ul>
-        {repositories.length <= 0 ? <h1>Carregando...</h1> : repositories.map(repository => <RepositoryItem repository={repository} />)}
+        {repositories.length <= 0 ? <h1>Carregando...</h1> : repositories.map(repository => <RepositoryItem repository={repository} key={repository.id} />)}
       </ul>
     </section>
   );

@@ -4,7 +4,7 @@ export default function RepositoryItem({ repository }) {
       <strong>{repository?.name ?? 'Default Name'}</strong>
       <p>{repository?.description ?? 'Default Description'}</p>
 
-      <a href={repository?.link ?? '#'}>
+      <a href={repository?.html_url ?? '#'}>
         Acess repository
       </a>
     </li>
